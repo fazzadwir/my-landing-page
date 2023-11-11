@@ -1,0 +1,117 @@
+@media (max-width: 720px) {
+    h1{
+        font-size: 1.5rem;
+    }
+}
+body{
+    font-size: 1.75vw;
+    font-family: 'Roboto Slab', cursive;
+    background-color: #fff;
+}
+/* .container-own{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  
+} */
+/* div{
+    display: block;
+    align-items: center;
+    justify-content: center;
+} */
+.heroes{
+    position: relative;
+    background-color: #555843;
+    height: 90vh;
+
+}
+.footer-bg{
+    background-color: #555843;
+}
+.font-lora{
+    font-family: 'Lora', serif;
+}
+h1{
+    font-size: 11vw ;
+    letter-spacing: 0.75vw;
+}
+h2{
+    font-size: 3vw;
+}
+.dark-bg{
+    color: #F5F7F8;
+}
+.light.bg{
+    font-family: 'Lora', serif;
+    color: #555843;
+    
+}
+.hello-text{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.round-img{
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+}
+.feature-img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 15%;
+}
+.paragraph-width {
+    width: auto;
+    margin: auto;
+}
+.bottom-container {
+    padding: 50px 0 20px;
+}
+.btn-all{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    font-weight: 500;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #555843;
+    border-color: #1b1f2326;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;
+}
+.btn-all-2{
+    
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 20px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    :hover{
+        background: rgb(251, 193, 245);
+    }  
+}
+.lh-1 {
+    line-height: 1!important;
+}
+.fw-normal {
+    font-weight: 400!important;
+}
+.featurette-heading {
+    letter-spacing: 0.05rem;
+}
